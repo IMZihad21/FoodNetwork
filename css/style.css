@@ -83,18 +83,18 @@ section {
     margin: auto 25%;
 }
 
-#second-banner {
-    background-image: url(/assets/background/Frame1.jpg);
+#about-banner {
+    background-image: url(/assets/background/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-#forth-banner {
+#stats-banner {
     box-shadow: 0px 0px 15px;
     border-radius: 30px;
     margin: 8%;
 }
 
-#forth-banner div {
+#stats-banner div {
     margin: 3% auto;
 }
