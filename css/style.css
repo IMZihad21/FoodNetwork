@@ -68,7 +68,7 @@ footer p {
     width: 30%;
     margin: 5% auto;
     border-radius: 30px;
-    box-shadow: 0px 0px 15px;
+    box-shadow: 0px 0px 10px grey;
 }
 
 .divide-three p {
@@ -104,7 +104,7 @@ footer p {
 }
 
 #stats-banner {
-    box-shadow: 0px 0px 15px;
+    box-shadow: 0px 0px 10px grey;
     border-radius: 30px;
     margin: 8%;
 }
@@ -121,7 +121,7 @@ footer p {
 
 #subscribe {
     padding: 3% 15%;
-    box-shadow: 0px 0px 15px;
+    box-shadow: 0px 0px 10px grey;
     border-radius: 30px;
     margin: 8%;
 }
