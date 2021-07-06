@@ -8,21 +8,48 @@ h1 {
     font-size: 60px;
 }
 
+p {
+    font-size: 25px;
+}
+
+.orangered {
+    color: orangered;
+}
+
 .flex-container {
     display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .divide-two {
     width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .divide-two img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
+}
+
+.divide-two p {
+    margin-bottom: 80px;
+}
+
+.link-btn {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    padding: 25px 45px;
+    border-radius: 100px;
+}
+
+#top-banner {
+    background-image: url(/assets/background/Frame3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
