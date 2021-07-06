@@ -5,11 +5,19 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 45px;
 }
 
 p {
     font-size: 25px;
+}
+
+section {
+    margin-bottom: 40px;
 }
 
 .orangered {
@@ -24,19 +32,18 @@ p {
 
 .divide-two {
     width: 50%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 5% auto;
 }
 
 .divide-two img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
 }
 
 .divide-two p {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .link-btn {
@@ -48,8 +55,19 @@ p {
     border-radius: 100px;
 }
 
+.centered {
+    text-align: center;
+    margin: auto 250px;
+}
+
 #top-banner {
-    background-image: url(/assets/background/Frame3.jpg);
+    background-image: url(/assets/background/Frame1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#second-banner {
+    background-image: url(/assets/background/Frame2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
