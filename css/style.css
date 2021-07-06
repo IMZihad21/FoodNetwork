@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.flex-container {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.divide-two {
+    width: 50%;
+}
+
+.divide-two img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
