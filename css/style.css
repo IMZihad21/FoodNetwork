@@ -134,4 +134,5 @@ footer p {
     font-size: 20px;
     text-align: center;
     border-radius: 10px;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
 }
