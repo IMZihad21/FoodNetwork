@@ -1,103 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Network</title>
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Food Network</title>
-        <link rel="shortcut icon" href="assets/favicon/favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    </head>
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
+  </head>
 
-    <body>
+  <body>
+    <section class="flex-container">
+      <div class="divide-two">
+        <h1>
+          <span class="orangered">Skip</span> The Diet, <br />Just Eat Healthy
+          <br />With Food Network
+        </h1>
+        <p>
+          Imagine you don't need a diet because we provide healthy and delicious
+          food for you!
+        </p>
+        <a class="link-btn" target="_blank" href="https://www.foodpanda.com.bd/"
+          >Order Food</a
+        >
+      </div>
+      <div class="divide-two">
+        <img src="assets/banner/banner1.png" alt="" />
+      </div>
+    </section>
 
-        <section class="flex-container">
-            <div class="divide-two">
-                <h1><span class="orangered">Skip</span> The Diet, <br>Just Eat Healthy <br>With Food Network</h1>
-                <p>Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
-                <a class="link-btn" target="_blank" href="https://www.foodpanda.com.bd/">Order Food</a>
-            </div>
-            <div class="divide-two">
-                <img src="assets/banner/banner1.png" alt="">
-            </div>
-        </section>
+    <section id="about-banner" class="flex-container">
+      <div class="divide-two">
+        <img src="assets/banner/banner2.png" alt="" />
+      </div>
+      <div class="divide-two">
+        <h2>About Me</h2>
+        <p>
+          This was supposed to be a placeholder with lorem ipsum text but we are
+          not allowed to write that so I'm just writing some random texts just
+          to fill the content. Hope that this won't cause any trouble.
+        </p>
+        <a class="link-btn" target="_blank" href="mailto:example@gmail.com"
+          >Contact me</a
+        >
+      </div>
+    </section>
 
-        <section id="about-banner" class="flex-container">
-            <div class="divide-two">
-                <img src="assets/banner/banner2.png" alt="">
-            </div>
-            <div class="divide-two">
-                <h2>About Me</h2>
-                <p>This was supposed to be a placeholder with lorem ipsum text but we are not allowed to write that so
-                    I'm just writing some random texts just to fill the content. Hope that this won't cause any trouble.
-                </p>
-                <a class="link-btn" target="_blank" href="mailto:example@gmail.com">Contact me</a>
-            </div>
-        </section>
+    <section>
+      <div class="centered">
+        <h2>My Recipies</h2>
+        <p id="huge-margin">
+          Another placeholder but still we're gonna use random texts and fill
+          out the content. This should be fine as long as we're not placing
+          something from the internet and actually typing.
+        </p>
+      </div>
+      <div class="flex-container">
+        <div class="divide-three centered">
+          <img src="assets/food-items/ProjectCover1.png" alt="" />
+          <h3>Veg One</h3>
+          <p>Lots of vegetables, Healthy and Tasty.</p>
+        </div>
+        <div class="divide-three centered">
+          <img src="assets/food-items/ProjectCover2.png" alt="" />
+          <h3>Veg two</h3>
+          <p>Also vegetables only, Healthy and Tasty.</p>
+        </div>
+        <div class="divide-three centered">
+          <img src="assets/food-items/ProjectCover3.png" alt="" />
+          <h3>Veg three</h3>
+          <p>Another One with vegetables. You gotta love this.</p>
+        </div>
+      </div>
+    </section>
 
-        <section>
-            <div class="centered">
-                <h2>My Recipies</h2>
-                <p id="huge-margin">Another placeholder but still we're gonna use random texts and fill out the content.
-                    This should be fine as long as we're not placing something from the internet and actually typing.
-                </p>
-            </div>
-            <div class="flex-container">
-                <div class="divide-three centered">
-                    <img src="assets/food-items/ProjectCover1.png" alt="">
-                    <h3>Veg One</h3>
-                    <p>Lots of vegetables, Healthy and Tasty.</p>
-                </div>
-                <div class="divide-three centered">
-                    <img src="assets/food-items/ProjectCover2.png" alt="">
-                    <h3>Veg two</h3>
-                    <p>Also vegetables only, Healthy and Tasty.</p>
-                </div>
-                <div class="divide-three centered">
-                    <img src="assets/food-items/ProjectCover3.png" alt="">
-                    <h3>Veg three</h3>
-                    <p>Another One with vegetables. You gotta love this.</p>
-                </div>
-            </div>
-        </section>
+    <section id="stats-banner">
+      <div id="stats-header">
+        <h2>My Subscriptions</h2>
+      </div>
+      <div class="flex-container centered">
+        <div>
+          <h2 class="orangered">700k</h2>
+          <p><small>Youtube Subscribers</small></p>
+        </div>
+        <div>
+          <h2 class="orangered">2.4m</h2>
+          <p><small>Instagram Followers</small></p>
+        </div>
+        <div>
+          <h2 class="orangered">100k</h2>
+          <p><small>Dribbble Shot Likes</small></p>
+        </div>
+      </div>
+    </section>
 
-        <section id="stats-banner">
-            <div id="stats-header">
-                <h2>My Subscriptions</h2>
-            </div>
-            <div class="flex-container centered">
-                <div>
-                    <h2 class="orangered">700k</h2>
-                    <p><small>Youtube Subscribers</small></p>
-                </div>
-                <div>
-                    <h2 class="orangered">2.4m</h2>
-                    <p><small>Instagram Followers</small></p>
-                </div>
-                <div>
-                    <h2 class="orangered">100k</h2>
-                    <p><small>Dribbble Shot Likes</small></p>
-                </div>
-            </div>
-        </section>
+    <section id="subscribe">
+      <form class="centered" action="">
+        <h2>Subscribe to get new <span class="orangered">Recipies!</span></h2>
+        <input type="email" name="" id="" placeholder="Your E-mail.." />
+        <button>Subscribe</button>
+      </form>
+    </section>
 
-        <section id="subscribe">
-            <form class="centered" action="">
-                <h2>Subscribe to get new <span class="orangered">Recipies!</span></h2>
-                <input type="email" name="" id="" placeholder="Your E-mail..">
-                <button>Subscribe</button>
-            </form>
-        </section>
-
-        <footer class="centered">
-            <h2><span class="orangered">FOOD</span> <span class="grey">NETWORK</span></h2>
-            <p>Eat healthy to live healthy. Live healthy to live happy.</p>
-        </footer>
-
-    </body>
-
+    <footer class="centered">
+      <h2>
+        <span class="orangered">FOOD</span> <span class="grey">NETWORK</span>
+      </h2>
+      <p>Eat healthy to live healthy. Live healthy to live happy.</p>
+    </footer>
+  </body>
 </html>
