@@ -1,0 +1,144 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+footer p {
+    color: white;
+}
+
+.orangered {
+    color: orangered;
+}
+
+.grey {
+    color: gray;
+}
+
+.flex-container {
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.divide-two {
+    width: 50%;
+    margin: 5% auto;
+}
+
+.divide-two p {
+    margin-bottom: 60px;
+}
+
+.divide-three {
+    width: 30%;
+    margin: 5% auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.divide-three p {
+    margin: 5%;
+}
+
+.divide-three img {
+    border-radius: 30px;
+    margin: 10% auto;
+}
+
+.link-btn {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    padding: 25px 45px;
+    border-radius: 100px;
+}
+
+.centered {
+    text-align: center;
+}
+
+#huge-margin {
+    margin: auto 25%;
+}
+
+#about-banner {
+    background-image: url(../assets/background/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#stats-banner {
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 30px;
+    margin: 8%;
+}
+
+#stats-banner div {
+    margin: 3% auto;
+}
+
+#stats-header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: -20px;
+}
+
+#subscribe {
+    padding: 3% 15%;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 30px;
+    margin: 8%;
+}
+
+#subscribe input {
+    width: 65%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#subscribe button {
+    width: 25%;
+    height: 46px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+}
